@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formcontainer{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgb(151, 152, 167);
+    padding: 50px;
+    margin: auto;
+    max-width: 50vw;
+}
+
+.formcontainer label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.formcontainer input {
+    width: 100%;
+    outline: 0;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 14px;
+}
+
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
